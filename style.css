@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --blue: #8094e9;
+  --darkblue: #6e62ad;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+}
+
+.nopad {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+a:hover {
+  background-color: var(--darkblue);
+}
+
+.logo {
+  padding-top: 5px;
+  max-width: 50px;
+  transition: transform ease-in-out 0.25s;
+}
+
+.logo:hover {
+  transform: scale(1.3);
+}
+
+.title {
+  font-size: 1.5rem;
+  padding-right: 24px;
+}
+.theme {
+  width: 25px;
+}
+.switch {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 22%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 68px;
+  background-color: var(--blue);
+  padding-top: 10px;
+  font-weight: 700;
+  color: aliceblue;
+  border-bottom: 3px solid rgba(110, 98, 173, 0.2);
+}
+
+.right {
+  padding-right: 40px;
+}
+
+li {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.flex {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img1 {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.img2 {
+  max-width: 100%;
+  width: auto;
+  height: 220px;
+  transition: transform 0.3s;
+}
+
+.img1:hover,
+.img2:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 150px auto;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 0 80px;
+  border: 10px solid black;
+  border-radius: 26px;
+  background-color: var(--blue);
+}
+
+.big {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem auto;
+}
+
+.mid {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 1rem auto;
+}
+
+.btn {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.click {
+  margin-top: 10px;
+  padding: 20px 20px;
+  width: 150px;
+  font-family: "Quicksand", sans-serif;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 5px solid black;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.click:hover {
+  border: 5px solid white;
+  color: black;
+  background-color: white;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 40px 60px;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 100px;
+}
+
+.large {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.extra {
+  display: grid;
+  gap: 40px 60px;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px;
+}
+
+.dog {
+  max-width: 100%;
+  width: 500px;
+  border: 4px dashed var(--darkblue);
+  border-radius: 50%;
+}
+
+.dog:hover {
+  content: url(img/lexie2.jpg);
+}
+
+.quote {
+  padding: 100px 100px 60px 100px;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 80px;
+}
+
+.quote > p {
+  font-family: "Press Start 2P", cursive;
+}
+
+.quote > p:nth-child(2) {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.invert {
+  max-width: 60px;
+  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+  filter: invert(100%);
+  transition: transform ease-in-out 0.25s;
+}
+
+.invert:hover {
+  transform: scale(1.3);
+}
+
+footer {
+  padding: 15px 100px 40px 100px;
+  display: grid;
+  gap: 40px 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: var(--blue);
+  color: aliceblue;
+  font-size: large;
+}
+
+.mar {
+  margin-bottom: 10px;
+}
+
+.nopad > li {
+  padding-top: 10px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Static Site</title>
+  </head>
+  <body>
+    <!-- ⬆️ Nav-Bar -->
+    <header class="header">
+      <nav class="navbar flex">
+        <div class="left">
+          <ul class="flex">
+            <li><img src="img/logo.png" alt="code_logo" class="logo" /></li>
+            <li class="title">Static Site</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Ver.</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul class="flex">
+            <li>
+              <a href="https://github.com/Priyesh-Singh-Waldia" target="_blank"
+                >My GitHub</a
+              >
+            </li>
+            <li>
+              <button class="switch">
+                <img src="img/dark.png" alt="site_theme" class="theme" />
+              </button>
+            </li>
+            <li>
+              <input type="text" class="search" placeholder="Search... " />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- 🎨 Landing Page -->
+    <section class="wrapper">
+      <div class="container">
+        <img src="img/left.png" alt="3d_mobile_render" class="img1" />
+        <div class="info">
+          <h1 class="big">Welcome to my Website</h1>
+          <h3 class="mid">Daily web design practice</h3>
+          <section class="btn">
+            <button class="click">Read Docs</button>
+            <button class="click">Try It</button>
+          </section>
+        </div>
+        <img src="img/right.png" alt="3d_data_chart_render" class="img2" />
+      </div>
+    </section>
+
+    <!-- 🔎 Details Section -->
+    <article class="dark grid" id="about">
+      <div>
+        <img src="img/rocket.svg" alt="rocket_image" class="invert" />
+        <h1 class="big">First Day</h1>
+        <p>Brushing up my skills to refine it for further improvement.</p>
+      </div>
+      <div>
+        <img src="img/calender.svg" alt="calender_image" class="invert" />
+        <h1 class="big">Daily Practice</h1>
+        <p>
+          Practice on daily basis. So will update the same ton my GitHub repo
+          for trackrecord.
+        </p>
+      </div>
+      <div>
+        <img src="img/code.svg" alt="code_image" class="invert" />
+        <h1 class="big">Plain HTML, CSS, JavaScript</h1>
+        <p>Will work on the basics first, will add Libraries later on.</p>
+      </div>
+      <div>
+        <img src="img/api.svg" alt="api_image" class="invert" />
+        <h1 class="big">API integration</h1>
+        <p>Practice API integration, so as to get more used to it.</p>
+      </div>
+    </article>
+
+    <!-- 📖 Extra Section -->
+    <article class="extra">
+      <p class="large">Meet my Puppy Bear 🐶</p>
+      <img src="img/lexie.jpg" alt="Lexie Picture" class="dog" />
+    </article>
+
+    <!-- ✨ Motivational Lines -->
+    <div class="dark quote">
+      <p>“WHO YOU ARE TOMORROW, BEGINS WITH WHAT YOU DO TODAY.”</p>
+      <p>– Tim Fargo</p>
+    </div>
+
+    <!-- ⬇️ Footer -->
+    <footer>
+      <ul class="nopad">
+        <h3 class="mar"><strong>Docs</strong></h3>
+        <li>Getting Started</li>
+        <li>Contributing</li>
+      </ul>
+      <ul class="nopad">
+        <h3 class="mar"><strong>Support</strong></h3>
+        <li>Discord</li>
+        <li>Stackoverflow</li>
+        <li>Canny</li>
+        <li>GitHub</li>
+      </ul>
+      <ul class="nopad">
+        <h3 class="mar"><strong>Social</strong></h3>
+        <li>Blog</li>
+        <li>GitHub</li>
+        <li>Twitter</li>
+      </ul>
+      <ul class="nopad">
+        <h3 class="mar"><strong>Built with</strong></h3>
+        <li>VsCode</li>
+        <li>Github Pages</li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
